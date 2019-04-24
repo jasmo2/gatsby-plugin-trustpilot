@@ -65,17 +65,17 @@ exports.sourceNodes = async ({ boundActionCreators }, {
 };
 
 const logWarning = (...text) => {
-    console.log('\ngatsby-source-trustpilot '.cyan, 'warning '.yellow, ...text);
+    console.log('\ngatsby-plugin-trustpilot '.cyan, 'warning '.yellow, ...text);
 };
 
 const logError = (...text) => {
-    console.log('\ngatsby-source-trustpilot '.cyan, 'success '.red, ...text);
+    console.log('\ngatsby-plugin-trustpilot '.cyan, 'success '.red, ...text);
 };
 
 const logSuccess = (...text) => {
-    console.log('\ngatsby-source-trustpilot '.cyan, 'success '.green, ...text);
+    console.log('\ngatsby-plugin-trustpilot '.cyan, 'success '.green, ...text);
 };
 
 const logInfo = (...text) => {
-    console.log('\ngatsby-source-trustpilot '.cyan, 'info '.blue, ...text);
+    console.log('\ngatsby-plugin-trustpilot '.cyan, 'info '.blue, ...text);
 };

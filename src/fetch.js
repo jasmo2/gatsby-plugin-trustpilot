@@ -20,7 +20,7 @@ class TrustPilotFetcher {
         }
 
         if (!domains || !Array.isArray(domains) || domains.length === 0) {
-            throw new ConfigException('You need to provide at least one domain in your gatsby config. Please refer to gatsby-source-trustpilot documentation');
+            throw new ConfigException('You need to provide at least one domain in your gatsby config. Please refer to gatsby-plugin-trustpilot documentation');
         }
 
         this.apiKey = apiKey;

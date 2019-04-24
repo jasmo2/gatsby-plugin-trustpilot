@@ -1,13 +1,15 @@
-# gatsby-source-trustpilot
+# gatsby-plugin-trustpilot
 
 Source plugin for pulling Trustpilot data into [Gatsby](https://github.com/gatsbyjs)
+
+_Forked from https://github.com/iKonrad/gatsby-source-trustpilot_.
 
 ## Features
 
 ## Installation Guide
 
 - [Install Gatsby](https://www.gatsbyjs.org/docs/)
-- Install plugin by running npm `npm i gatsby-source-trustpilot -S`
+- Install plugin by running npm `npm i gatsby-plugin-trustpilot`
 - Configure the plugin in `gatsby-config.js` file:
 
 ```javascript
@@ -18,7 +20,7 @@ module.exports = {
   },
   plugins: [
       {
-          resolve: 'gatsby-source-trustpilot',
+          resolve: 'gatsby-plugin-trustpilot',
           options: {
               apiKey: 'YOUR_TRUSTPILOT_API_KEY',
               secretKey: 'YOUR_TRUSTPILOT_SECRET_KEY',
